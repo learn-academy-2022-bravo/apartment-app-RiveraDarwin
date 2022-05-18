@@ -1,9 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-export default class Home extends Component {
+class Home extends Component {
   render() {
     return (
-      <h3>Home</h3>
-    )
+      <>
+        <h1 className="homeHeader">Home</h1>
+        <p className="homeParagraph">
+          lorem ipsum dolor sit lorem consectetur adip lorem ipsum dolor lorem
+          ipsum dolor lorem lorem ipsum dolor lorem ipsum dolor lorem ipsum
+          dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem
+          ipsum dolor lorem ipsum dolor
+        </p>
+
+      </>
+    );
   }
 }
+
+export default Home;
