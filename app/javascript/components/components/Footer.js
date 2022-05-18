@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export default class Footer extends Component {
+class Footer extends Component {
   render() {
-    return (
-      <h3>Footer</h3>
-    )
+
+    return <h3 className="footer">&copy; Darwin Apartment App</h3>;
+    
   }
 }
+
+export default Footer;
