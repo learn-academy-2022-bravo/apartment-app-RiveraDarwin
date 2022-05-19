@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Nav, NavItem } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -15,7 +16,12 @@ class Header extends Component {
     return (
       <>
         <h1>React in Rails Apartment App</h1>
-        <Nav>
+        <Nav className="nav-bar">
+          <NavItem>
+            <NavLink to="/" className="nav-link">
+              Home
+            </NavLink>
+          </NavItem>
           {logged_in && (
             <NavItem>
               <a href={sign_out_route} className="nav-link">
@@ -31,13 +37,17 @@ class Header extends Component {
             </NavItem>
           )}
           {!logged_in && (
-             <NavItem>
-             <a href={new_user_route} className="nav-link">
-               Sign Up
-             </a>
-           </NavItem>
-           
+            <NavItem>
+              <a href={new_user_route} className="nav-link">
+                Sign Up
+              </a>
+            </NavItem>
           )}
+          <NavItem>
+            <NavLink to="/apartmentindex" className="nav-link">
+              Current Listings
+            </NavLink>
+          </NavItem>
         </Nav>
       </>
     );
