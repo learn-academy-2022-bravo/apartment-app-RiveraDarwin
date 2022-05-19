@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Footer extends Component {
   render() {
-
-    return <h3 className="footer">&copy; Darwin Apartment App</h3>;
-    
+    return (
+      <>
+        <h3 className="footer"> &copy; Darwin Apartment App</h3>;
+      </>
+    );
   }
 }
 
