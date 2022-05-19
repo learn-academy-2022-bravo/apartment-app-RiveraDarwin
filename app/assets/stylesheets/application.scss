@@ -23,12 +23,18 @@
   text-align: center;
 }
 .footer {
-  font-weight: lighter;
-  font-size: 16px;
-  position: absolute;
+  border: 1px solid rgb(245, 242, 242);
+  background-color: rgb(131, 121, 121);
+  color: white;
+  padding: 10px;
+  text-align: end;
   left: 0;
   right: 0;
   bottom: 0;
-  border: 0.5px solid black;
-  text-align: center;
+}
+.imgs{
+  height: 200px;
+  width: 420px;
+
+
 }
