@@ -4,7 +4,7 @@ class Home extends Component {
   render() {
     return (
       <>
-        <h1 className="homeHeader">Home</h1>
+        <h3 className="homeHeader">Home</h3>
         <p className="homeParagraph">
           lorem ipsum dolor sit lorem consectetur adip lorem ipsum dolor lorem
           ipsum dolor lorem lorem ipsum dolor lorem ipsum dolor lorem ipsum

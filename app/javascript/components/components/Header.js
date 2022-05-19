@@ -36,6 +36,7 @@ class Header extends Component {
                Sign Up
              </a>
            </NavItem>
+           
           )}
         </Nav>
       </>

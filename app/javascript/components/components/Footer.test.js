@@ -17,6 +17,6 @@ describe("When Footer renders", () => {
   it("displays a heading", () => {
     const footer = shallow(<Footer />)
     const footerHeading = footer.find("h3")
-    expect(footerHeading.text()).toEqual("This should fail")
+    expect(footerHeading.text()).toEqual(" © Darwin Apartment App")
   })
 })
